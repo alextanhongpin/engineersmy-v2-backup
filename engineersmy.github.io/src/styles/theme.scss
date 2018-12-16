@@ -1,0 +1,36 @@
+@import './colors.scss';
+
+$block-20: 20px;
+$block-10: 10px;
+$block-5: 5px;
+
+
+/* NO-LINK
+ *
+ * remove underline from links
+ *
+**/
+%no-link,
+%no-link:link,
+%no-link:visited,
+%no-link:hover,
+%no-link:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+%flex {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+}
+
+
+%list li {
+    list-style-type: disc;
+    padding: 0 $block-5;
+    margin: 0 $block-20;
+    line-height: 1.25em;
+}
