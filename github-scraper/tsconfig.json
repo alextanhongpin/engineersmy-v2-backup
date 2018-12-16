@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "outDir": "dist",
+    "rootDir": "src",    
+    "allowSyntheticDefaultImports": true,
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "preserveConstEnums": true,
+    "allowJs": true,
+    "sourceMap": true,
+    "typeRoots": ["typings", "node_modules/@types"],
+    "lib": ["es7", "dom"],
+  },
+  "files": [
+    "./typings/circuit-retry/index.d.ts",
+    "./typings/json/index.d.ts",
+    "./typings/node-cron/index.d.ts",
+    "./typings/opossum/index.d.ts"
+  ],
+  "include": [
+    "src/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist",
+    "data"
+  ]
+}

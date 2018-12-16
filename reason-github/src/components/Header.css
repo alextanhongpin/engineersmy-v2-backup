@@ -1,0 +1,18 @@
+.header {
+  color: black;
+  margin: 0;
+  padding: 0 1rem;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.header-heading {
+  display: inline-block;
+  font-size: var(--scale-700);
+}
+
+.header-subheading {
+  position: relative;
+  top: -1rem;
+  padding: 0 .5rem;
+}

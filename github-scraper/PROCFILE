@@ -1,0 +1,2 @@
+server: yarn start
+compiler: yarn run dev
